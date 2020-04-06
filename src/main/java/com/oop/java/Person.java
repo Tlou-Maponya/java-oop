@@ -1,5 +1,5 @@
 package com.oop.java;
-public class person {
+public class Person {
 
     private int age;
     private String name;
@@ -7,7 +7,7 @@ public class person {
     private String [] interest;
 
 
-    public person(String name, int age, String gender, String [] interest){
+    public Person(String name, int age, String gender, String [] interest){
         this.name = name;
         this.age = age;
         this.gender = gender;
